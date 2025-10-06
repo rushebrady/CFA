@@ -1,4 +1,4 @@
-section#navbar-top {background-color:#ffc107; margin-bottom:14px; padding:0 10px 0 14px;}
+section#navbar-top {background-color:#ffc107; margin-top:0; margin-bottom:14px; padding:0 10px 0 14px;}
 section#navbar-top a#logo.nav-link {color:#000000; border-bottom:4px solid transparent; text-align:center; margin:0; padding-top:6px;}
 section#navbar-top a#logo.nav-link.active {color:#000000; border-bottom-color:transparent;}
 /*section#navbar-top a#logo.nav-link:hover {color:#000000; border-bottom-color:transparent;}*/
