@@ -1,6 +1,6 @@
 section#navbar-top {background-color:#ffc107; margin:0; padding:6px 10px 6px 14px;}
 
-section#navbar-top a#logo.nav-link {text-align:center; border-bottom-color:transparent; margin:0; padding-top:6px;}
+section#navbar-top a#logo.nav-link {color:#000000; text-align:center; border-bottom-color:transparent; margin:0; padding-top:6px;}
 /*section#navbar-top a#logo.nav-link {color:#000000; border-bottom:4px solid transparent; text-align:center; margin:0; padding-top:6px;}*/
 /*section#navbar-top a#logo.nav-link.active {color:#000000; border-bottom-color:transparent;}*/
 /*section#navbar-top a#logo.nav-link:hover {color:#000000; border-bottom-color:transparent;}*/
