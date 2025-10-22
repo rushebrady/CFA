@@ -6,7 +6,7 @@ section#navbar-top a#logo.nav-link {color:#000000; text-align:center; border-bot
 /*section#navbar-top a#logo.nav-link:hover {color:#000000; border-bottom-color:transparent;}*/
 
 section#navbar-top nav {margin:0; padding:2px 0 0 0;}
-section#navbar-top nav a.nav-link {color:#000000; border-bottom:4px solid transparent; padding:0; margin-left:16px;}
+section#navbar-top nav a.nav-link {color:#000000; border-bottom:4px solid transparent; margin-left:16px; padding-left:0;padding-right:0;padding-bottom:0;}
 section#navbar-top nav a.nav-link.active {color:#000000; border-bottom-color:#000000; font-weight:700;}
 section#navbar-top nav a.nav-link:hover, a.nav-link:focus {color:#000000; border-bottom-color:#000000;}
 @media (max-width:575.98px) { section#navbar-top a#logo.nav-link {font-size:21px; font-weight:500;} }
