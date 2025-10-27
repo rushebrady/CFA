@@ -1,11 +1,6 @@
-section#navbar-top {background-color:#ffc107; margin:0; padding:6px 16px 8px 14px;}
+section#navbar-top {background-color:#ffc107;margin:0;padding:6px 16px 6px 14px;}
 
-/*section#navbar-top a#logo.nav-link {color:#000000; text-align:center; border-bottom-color:transparent; margin:0; padding-top:6px;}*/
-/*section#navbar-top a#logo.nav-link {color:#000000; border-bottom:4px solid transparent; text-align:center; margin:0; padding-top:6px;}*/
-/*section#navbar-top a#logo.nav-link.active {color:#000000; border-bottom-color:transparent;}*/
-/*section#navbar-top a#logo.nav-link:hover {color:#000000; border-bottom-color:transparent;}*/
-
-section#navbar-top nav {margin:0; padding:8px 0 0 0;}
+section#navbar-top nav {margin:0;padding:12px 0 0 0;}
 section#navbar-top nav a.nav-link {color:#000000; border-bottom:4px solid transparent; margin-left:16px; padding-left:0;padding-right:0;padding-bottom:0;}
 section#navbar-top nav a.nav-link.active {color:#000000; border-bottom-color:#000000; font-weight:700;}
 section#navbar-top nav a.nav-link:hover, a.nav-link:focus {color:#000000; border-bottom-color:#000000;}
@@ -35,3 +30,10 @@ section#prefooter {text-align:center; margin:0; padding:50px 0;}
 @media (min-width:992px) { section#prefooter h1 {font-size:50px;} section#prefooter h2 {font-size:56px;} section#prefooter div h3 {font-size:40px;} }
 @media (min-width:1200px) { section#prefooter h1 {font-size:60px;} section#prefooter div h3 {font-size:50px;} }
 @media (min-width:1400px) { section#prefooter h1 {font-size:70px;} }
+
+/*
+section#navbar-top a#logo.nav-link {color:#000000; text-align:center; border-bottom-color:transparent; margin:0; padding-top:6px;}
+section#navbar-top a#logo.nav-link {color:#000000; border-bottom:4px solid transparent; text-align:center; margin:0; padding-top:6px;}
+section#navbar-top a#logo.nav-link.active {color:#000000; border-bottom-color:transparent;}
+section#navbar-top a#logo.nav-link:hover {color:#000000; border-bottom-color:transparent;}
+*/
