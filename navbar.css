@@ -29,4 +29,4 @@ section#prefooter {color:#000000;background-color:#ffc107;text-align:center;marg
 @media (min-width:768px) { section#prefooter h1 {font-size:50px;} section#prefooter h2 {font-size:42px;} }
 @media (min-width:992px) { section#prefooter h1 {font-size:60px;} section#prefooter h2 {font-size:56px;} }
 @media (min-width:1200px) { section#prefooter h1 {font-size:80px;} }
-@media (min-width:1400px) { section#prefooter h1 {font-size:100px;} }
+@media (min-width:1400px) { section#prefooter h1 {font-size:90px;} }
