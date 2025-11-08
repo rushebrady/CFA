@@ -24,9 +24,9 @@ section#navbar-bottom nav a.nav-link.active {border-bottom-color:#ffffff;}
 @media (min-width:1400px) { section#navbar-bottom nav {font-size:38px;} }
 
 section#prefooter {color:#000000;background-color:#ffc107;text-align:center;margin:0;padding:46px 0 70px 0;}
-@media (max-width:575.98px) { section#prefooter h1 {font-size:30px;} section#prefooter h2 {font-size:26px;} }
-@media (min-width:576px) { section#prefooter h1 {font-size:40px;} section#prefooter h2 {font-size:32px;} }
-@media (min-width:768px) { section#prefooter h1 {font-size:50px;} section#prefooter h2 {font-size:42px;} }
-@media (min-width:992px) { section#prefooter h1 {font-size:60px;} section#prefooter h2 {font-size:56px;} }
+@media (max-width:575.98px) { section#prefooter h1 {font-size:40px;} section#prefooter h2 {font-size:26px;} }
+@media (min-width:576px) { section#prefooter h1 {font-size:50px;} section#prefooter h2 {font-size:32px;} }
+@media (min-width:768px) { section#prefooter h1 {font-size:60px;} section#prefooter h2 {font-size:42px;} }
+@media (min-width:992px) { section#prefooter h1 {font-size:70px;} section#prefooter h2 {font-size:56px;} }
 @media (min-width:1200px) { section#prefooter h1 {font-size:80px;} }
 @media (min-width:1400px) { section#prefooter h1 {font-size:90px;} }
