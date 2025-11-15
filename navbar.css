@@ -1,5 +1,4 @@
-section#navbar-top {background-color:#ffc107;margin:0;padding:6px 18px 4px 14px;}
-
+section#navbar-top {background-color:#ffc107;margin:0;padding:6px 20px 4px 14px;}
 section#navbar-top nav {margin:0;padding:14px 0 0 0;}
 section#navbar-top nav a.nav-link {color:#000000; border-bottom:4px solid transparent; margin-left:16px; padding-left:0;padding-right:0;padding-bottom:0;}
 section#navbar-top nav a.nav-link.active {color:#000000;border-bottom-color:#000000;font-weight:700;}
@@ -9,7 +8,6 @@ section#navbar-top nav a.nav-link:hover, a.nav-link:focus {color:#000000; border
 @media (min-width:768px) { section#navbar-top nav {font-size:27px;} }
 
 section#navbar-bottom {color:#ffffff;background-color:#000000;font-weight:200;margin:0;padding:54px 0 60px 0;}
-
 section#navbar-bottom nav {margin:0;padding:0;}
 section#navbar-bottom nav a.nav-link {color:#ffffff;border-bottom:2px solid transparent;margin-left:16px;padding:0;}
 section#navbar-bottom nav a.nav-link:hover, a.nav-link:focus {border-bottom-color:#ffffff;}
