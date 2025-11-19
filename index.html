@@ -65,11 +65,19 @@
             @media (min-width:1200px) { header h1 {font-size:90px;} header div h2 {font-size:60px;} header div h3 {font-size:50px;padding-right:160px;padding-left:160px;} }
             @media (min-width:1400px) { header h1 {font-size:100px;} header div h3 {padding-right:250px;padding-left:250px;} }
 
-
+            section#whowehelp div.card{margin-bottom:100px;border-radius:15px;}
+            section#whowehelp div.card h3{font-weight:600;overflow-wrap:normal;}
+            section#whowehelp div.card img {width:100%;height:100%;}
+            .img-right {border-radius:0 15px 15px 0;} .img-left {border-radius:15px 0 0 15px;}
+            @media (max-width:575.98px) { section#whowehelp h1 {font-size:50px;} section#whowehelp div.card h3 {font-size:35px;} }
+            @media (min-width:576px) { section#whowehelp h1 {font-size:58px;} section#whowehelp div.card h3 {font-size:40px;} }
+            @media (min-width:768px) { section#whowehelp h1 {font-size:80px;} }
+            @media (min-width:1200px) { section#whowehelp {padding:100px 200px;} section#whowehelp div.card h3 {font-size:44px;} section#bizcard div.card p {font-size:22px;} }
+            @media (min-width:1400px) { section#whowehelp {padding:100px 330px;} }
             
-            @media (max-width:575.98px) { section#cw2 h1 {font-size:60px;} }
-            @media (min-width:576px) { section#cw2 h1 {font-size:70px;} }
-            @media (min-width:768px) { section#cw2 h1 {font-size:80px;} }
+            @media (max-width:575.98px) { section#howwehelp h1 {font-size:60px;} }
+            @media (min-width:576px) { section#howwehelp h1 {font-size:70px;} }
+            @media (min-width:768px) { section#howwehelp h1 {font-size:80px;} }
 
             @media (max-width:575.98px) { section#map div h4 {font-size:28px;} }
             @media (min-width:576px) { section#map div h4 {font-size:34px;} }
@@ -110,7 +118,7 @@
     <hr>
     <main>
 
-        <section id="whohelp" class="my-0 pb-0 pt-5">
+        <section id="whowehelp" class="my-0 pb-0 pt-5">
         <!--<h1>&nbsp;</h1>-->
         <div class="container-md">
             <div class="card">
@@ -129,7 +137,7 @@
         </div></section>
             
         <!--COPYWRITING2-->
-        <section id="cw2" class="text-center mt-0">
+        <section id="howwehelp" class="text-center mt-0">
             <h1>How&nbsp;We&nbsp;Help</h1>
             <div class="container-md">
                 <h3 class="py-5">Fighting to achieve consistent cashflow or profit or growth?</h3>
