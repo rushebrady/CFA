@@ -55,9 +55,9 @@
             @media (max-width:575.98px) { header h1 {font-size:34px;} header div h3 {font-size:24px;} }
             @media (min-width:576px) { header h1 {font-size:48px;} header div h3 {font-size:34px;} }
             @media (min-width:768px) { header h1 {font-size:60px;} header div h3 {font-size:40px;} }
-            @media (min-width:992px) { header h1 {font-size:80px;} header div h3 {font-size:46px;padding-right:50px;padding-left:50px;} }
-            @media (min-width:1200px) { header h1 {font-size:90px;} header div h3 {font-size:50px;padding-right:90px;padding-left:90px;} }
-            @media (min-width:1400px) { header h1 {font-size:100px;} header div h3 {padding-right:180px;padding-left:180px;} }
+            @media (min-width:992px) { header h1 {font-size:80px;} header div h3 {font-size:46px;padding-right:40px;padding-left:40px;} }
+            @media (min-width:1200px) { header h1 {font-size:90px;} header div h3 {font-size:50px;padding-right:80px;padding-left:80px;} }
+            @media (min-width:1400px) { header h1 {font-size:100px;} header div h3 {padding-right:170px;padding-left:170px;} }
 
             section#bizcard div.card{margin-bottom:100px;border-radius:15px;}
             section#bizcard div.card h3{font-weight:600;overflow-wrap:normal;}
@@ -78,7 +78,8 @@
             
             ul.list-group {margin:40px 0px 50px 0px;font-size:20px;}
             ul.list-group li {padding:20px 20px 40px 30px;}
-            
+
+            section#team h1 {padding-bottom:80px;} section#team img {border-color:#ffc107;}
             .timeline {position:relative; padding:0; list-style:none;}
             .timeline:before {position:absolute; top:0; bottom:0; left:40px; width:2px; margin-left:-1.5px; content:"";background-color:#e9ecef;}
             .timeline > li {position:relative; min-height:50px; margin-bottom:50px;}
@@ -96,7 +97,6 @@
             .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {margin-top:0; color:inherit;}
             .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {text-transform:none;}
             .timeline .timeline-body > ul, .timeline .timeline-body > p {margin-bottom:0;}
-            section#team h1 {padding-bottom:80px;}
             @media (max-width:575.98px) { section#team h1 {font-size:26px;} }
             @media (min-width:576px) { section#team h1 {font-size:40px;} }
             @media (min-width:768px) {
@@ -155,7 +155,7 @@
     <main>
 
         <!--BIZ CARDS-->
-        <section id="bizcard">
+        <section id="bizcard" class="pb-0">
         <!--<h1>&nbsp;</h1>-->
         <div class="container-md">
             <div class="card">
