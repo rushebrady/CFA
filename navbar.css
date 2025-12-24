@@ -7,11 +7,11 @@ section#navbar-top nav a.nav-link:hover, a.nav-link:focus {color:#000000; border
 @media (min-width:576px) { section#navbar-top nav {font-size:22px;font-weight:400;} }
 @media (min-width:768px) { section#navbar-top nav {font-size:27px;} }
 
-section#navbar-bottom {color:#ffffff;background-color:#000000;font-weight:200;margin:0;padding:54px 0 60px 0;}
+section#navbar-bottom {color:#dee2e6;background-color:#000000;font-weight:200;margin:0;padding:54px 0 60px 0;}
 section#navbar-bottom nav {margin:0;padding:0;}
-section#navbar-bottom nav a.nav-link {color:#ffffff;border-bottom:2px solid transparent;margin-left:16px;padding:0;}
-section#navbar-bottom nav a.nav-link:hover, a.nav-link:focus {border-bottom-color:#ffffff;}
-section#navbar-bottom nav a.nav-link.active {border-bottom-color:#ffffff;}
+section#navbar-bottom nav a.nav-link {color:#dee2e6;border-bottom:2px solid transparent;margin-left:16px;padding:0;}
+section#navbar-bottom nav a.nav-link:hover, a.nav-link:focus {border-bottom-color:#dee2e6;}
+section#navbar-bottom nav a.nav-link.active {border-bottom-color:#dee2e6;}
 @media (max-width:575.98px) { section#navbar-bottom nav {font-size:22px;} }
 @media (min-width:576px) { section#navbar-bottom nav {font-size:34px;} }
 @media (min-width:768px) { section#navbar-bottom nav {font-size:23px;} }
