@@ -96,21 +96,29 @@
 
             section#customerlove {margin-top:100px;}
             section#customerlove div.card {text-align:left;border-radius:20px;border:0;margin:0 0 10px 0;padding:16px 0 12px 6px;}
-            section#customerlove div.card img{margin:0 0 0 12px;} section#customerlove div.card hr{width:60%;margin:6px 0 16px 0;height:2px;}
-            section#customerlove div.card p{padding-bottom:4px;} section#customerlove div.card h6{font-weight:500;} section#customerlove div.card td{font-size:16px;}
-            @media (max-width:575.98px) { section#customerlove h1 {font-size:34px;} section#customerlove div.card p{font-size:16px;padding-right:4px;} section#customerlove{padding-left:4px;} }
-            @media (min-width:576px) { section#customerlove h1 {font-size:44px;} section#customerlove div.card p{font-size:18px;padding-right:10px;} }
-            @media (min-width:768px) { section#customerlove h1 {font-size:60px;} section#customerlove div.card p{font-size:20px;padding-right:18px;} }
-            @media (min-width:992px) { section#customerlove h1 {font-size:70px;} section#customerlove div.card p{font-size:24px;padding-right:26px;} }
+            section#customerlove div.card img {margin:0 0 0 12px;} section#customerlove div.card hr {width:60%;margin:6px 0 16px 0;height:2px;}
+            section#customerlove div.card p {padding-bottom:4px;} section#customerlove div.card h6 {font-weight:500;} section#customerlove div.card td {font-size:16px;}
+            @media (max-width:575.98px) { section#customerlove h1 {font-size:34px;} section#customerlove div.card p {font-size:16px;padding-right:4px;} section#customerlove {padding-left:4px;} }
+            @media (min-width:576px) { section#customerlove h1 {font-size:44px;} section#customerlove div.card p {font-size:18px;padding-right:10px;} }
+            @media (min-width:768px) { section#customerlove h1 {font-size:60px;} section#customerlove div.card p {font-size:20px;padding-right:18px;} }
+            @media (min-width:992px) { section#customerlove h1 {font-size:70px;} section#customerlove div.card p {font-size:24px;padding-right:26px;} }
             @media (min-width:1200px) { section#customerlove h1 {font-size:80px;} }
             
-            section#map{margin-bottom:100px;padding-top:90px;} section#map div.card{border-radius:30px;border-color:#ffc107;} section#map div.card figure{margin-top:4px;}
+            section#map {margin-bottom:100px;padding-top:90px;} section#map div.card {border-radius:30px;border-color:#ffc107;} section#map div.card figure {margin-top:4px;}
             @media (max-width:575.98px) { section#map div.card h4 {font-size:24px;} }
             @media (min-width:576px) { section#map div.card h4 {font-size:32px;} }
             @media (min-width:768px) { section#map div.card h4 {font-size:36px;} }
             @media (min-width:992px) { section#map div.card h4 {font-size:38px;} }
             @media (min-width:1200px) { section#map div.card h4 {font-size:42px;} }
             @media (min-width:1400px) { section#map div.card h4 {font-size:46px;padding-bottom:14px;} }
+
+            /*section#cta-box {}*/
+            @media (max-width:575.98px) { section#cta-box h2 {font-size:22px;} }
+            @media (min-width:576px) { section#cta-box h2 {font-size:28px;} }
+            @media (min-width:768px) { section#cta-box h2 {padding-right:20px;padding-left:20px;} }
+            @media (min-width:992px) { section#cta-box h2 {padding-right:30px;padding-left:30px;} }
+            @media (min-width:1200px) { section#cta-box h2 {font-size:50px;padding-right:60px;padding-left:60px;} }
+            @media (min-width:1400px) { section#cta-box h2 {font-size:54px;padding-right:80px;padding-left:80px;} }
         </style>
     </head>
 <body>
@@ -344,7 +352,7 @@
             </div></div></div>
         </div></div></section>
         
-        <section class="bg-yellow my-5 py-5">
+        <section id="cta-box" class="container-sm bg-yellow my-5 py-5">
         <h2 class="text-center fc-black">Our AI Money Management System&trade; will reverse your negative cashflow.</h2>
         <div class="text-center mb-5 py-5"><a id="cta-btn" target="_blank" class="btn btn-dark btn-lg fc-yellow" href="https://lunacal.ai/cashflowaccounting/" onclick="gtag_report_conversion('https://lunacal.ai/cashflowaccounting/');">&nbsp;&nbsp;Schedule&nbsp;&nbsp;Your&nbsp;&nbsp;Call&nbsp;&nbsp;</a></div>
         </section>
