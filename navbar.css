@@ -16,7 +16,7 @@ section#navbar-bottom nav a.nav-link:hover, a.nav-link:focus {border-bottom-colo
 section#navbar-bottom nav a.nav-link.active {border-bottom-color:#dee2e6;}
 @media (max-width:575.98px) { section#navbar-bottom nav {font-size:24px;} }
 @media (min-width:576px) { section#navbar-bottom nav {font-size:34px;} }
-@media (min-width:768px) { section#navbar-bottom nav {font-size:23px;} }
+@media (min-width:768px) { section#navbar-bottom nav {font-size:26px;} }
 @media (min-width:992px) { section#navbar-bottom nav {font-size:26px;} }
 @media (min-width:1200px) { section#navbar-bottom nav {font-size:32px;} }
 @media (min-width:1400px) { section#navbar-bottom nav {font-size:38px;} }
