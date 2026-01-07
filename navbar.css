@@ -5,7 +5,6 @@ section#navbar-top nav a.nav-link.active {color:#000000;border-bottom-color:#000
 section#navbar-top nav a.nav-link:hover, a.nav-link:focus {color:#000000; border-bottom-color:#000000;}
 section#navbar-top nav a.btn {color:#ffffff;background-color:#0d6efd;border-radius:15px;}
 section#navbar-top nav a.btn.active,section#navbar-top nav a.btn:hover {color:#ffffff;background-color:#000000;}
-/*section#navbar-top nav a.btn:hover {color:#ffffff;background-color:#000000;}*/
 @media (max-width:575.98px) { section#navbar-top nav a.nav-link {font-size:20px;font-weight:300;} section#navbar-top nav a.btn {font-size:20px;font-weight:300;} }
 @media (min-width:576px) { section#navbar-top nav a.nav-link {font-size:22px;font-weight:400;} section#navbar-top nav a.btn {font-size:22px;font-weight:400;} }
 @media (min-width:768px) { section#navbar-top nav a.nav-link {font-size:27px;} section#navbar-top nav a.btn {font-size:27px;} }
@@ -32,9 +31,8 @@ section#prefooter {color:#000000;background-color:#ffc107;text-align:center;padd
 
 a#cta-btn{border-radius:15px;font-weight:800;margin-top:50px;}
 a#cta-box-btn{border-radius:15px;font-weight:800;margin-top:50px;}
-/*a#cta-btn:hover{background-color:#0d6efd;}*/
 a#cta-btn:hover,a#cta-box-btn:hover{color:#0d6efd;background-color:#ffffff;}
-@media (max-width:575.98px) { a#cta-btn,a#cta-box-btn{font-size:32px;}}
+@media (max-width:575.98px) { a#cta-btn,a#cta-box-btn{font-size:32px;} }
 @media (min-width:576px) { a#cta-btn,a#cta-box-btn{font-size:36px;} }
 @media (min-width:768px) { a#cta-btn,a#cta-box-btn{font-size:44px;} }
 @media (min-width:992px) { a#cta-btn,a#cta-box-btn{font-size:50px;} }
