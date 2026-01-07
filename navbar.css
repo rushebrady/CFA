@@ -20,6 +20,7 @@ section#navbar-bottom nav a.nav-link.active {border-bottom-color:#dee2e6;}
 @media (min-width:992px) { section#navbar-bottom nav {font-size:28px;} }
 @media (min-width:1200px) { section#navbar-bottom nav {font-size:32px;} }
 @media (min-width:1400px) { section#navbar-bottom nav {font-size:38px;} }
+@media (min-width:1600px) { section#navbar-bottom nav {font-size:40px;} }
 
 section#prefooter {color:#000000;background-color:#ffc107;text-align:center;padding:38px 0 70px 0;}
 @media (max-width:575.98px) { section#prefooter h1 {font-size:32px;} section#prefooter h2 {font-size:22px;} }
