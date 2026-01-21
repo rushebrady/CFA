@@ -66,7 +66,7 @@
             @media (min-width:1200px) { header h1 {font-size:86px;} header div h3 {font-size:44px;} }
             @media (min-width:1400px) { header h1 {font-size:96px;} header div h3 {font-size:50px;} }
 
-            section#faq button.accordion-button {border-radius:15px;}
+            section#faq div.accordion {border-radius:15px;}
             section#faq div.accordion-body {padding-top:30px;padding-bottom:30px;}
             @media (max-width:575.98px) { {font-size:22px;padding-left:24px;} section#faq div.accordion-body{font-size:18px;padding:30px 38px;} }
             @media (min-width:576px) { section#faq button.accordion-button{font-size:26px;padding-left:32px;} section#faq div.accordion-body{font-size:20px;padding:30px 42px;} }
@@ -118,7 +118,8 @@
         
         <!--FAQ-->
         <section id="faq" class="my-0">
-        <div id="accordionfaq" class="container accordion">
+        <div class="container">
+        <div id="accordionfaq" class="accordion">
                 <div class="accordion-item my-5">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
@@ -203,7 +204,7 @@
                         <div class="accordion-body">Great. We've been waiting for you. Call us at 720-314-8066.</div>
                     </div>
                 </div>
-        </div>
+        </div></div>
         </section>
         <!--END FAQ-->
 
