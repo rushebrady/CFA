@@ -476,30 +476,34 @@
     </nav></section>
     <!--END NAVBAR BOTTOM--->
 
-    <!--NEWSLETTER
+    <!--NEWSLETTER-->
     <div class="container text-center">
         <h4 class="bold300">Business &amp; Money</h4>
         <h6 class="bold300 fs-italic font20 mb-4">The CFA Newsletter by David Rushe Brady</h6>
         <p class="mb-3">Every Thursday morning 1,752 people read insightful ideas about Business &amp; Money. You can too.</p>
-            <form action="https://public.herotofu.com/v1/05b23a30-e92a-11f0-93d1-c1f1eaf4bbf5" method="post" accept-charset="UTF-8">
+            <form action="https://api.sheetmonkey.io/form/ueBHXK6ngMDmrsYLFXDRrG" method="post" accept-charset="UTF-8">
                 <div class="row row-cols-2">
                     <div class="col text-end">
-                        <input size="33" placeholder="Your First Name" name="Name" type="text" required>
+                        <input type="text" size="33" placeholder="Your First Name" name="Name" required>
                     </div>
                     <div class="col text-start">
-                        <input size="33" placeholder="Your Email Address" name="Email" type="email" required>
+                        <input type="email" size="33" placeholder="Your Email Address" name="Email" required>
                         <small>no&nbsp;spam&nbsp;&bull;&nbsp;100%&nbsp;free&nbsp;&bull;&nbsp;unsubscribe&nbsp;anytime</small>
                     </div>
                 </div>
-                <div class="my-4"><input class="brdr-radius15" type="submit" value="&nbsp;Subscribe To The Newsletter&nbsp;">
-                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
-                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
-                    </div>
-                </div>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+                <div class="my-4"><input type="submit" class="brdr-radius15" value="&nbsp;Subscribe To The Newsletter&nbsp;"></div>
             </form>
     </div>
-    END NEWSLETTER-->
-                                    
+    <!--END NEWSLETTER-->
+<!--
+<form action="https://api.sheetmonkey.io/form/ueBHXK6ngMDmrsYLFXDRrG" method="post">
+<label>Your Name: <input type="text" name="Name" required /></label>
+<label>Your Email: <input type="email" name="Email" required /></label>
+<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+<input type="submit" value="Sign Up" />
+</form>
+-->                           
     <figure><img src="CFA-Wht-195x83.png" width="195" height="83" alt="..."></figure>
     <h5 class="text-center fs-italic bold700 mt-5">&laquo;Accounting&nbsp;That&nbsp;Makes You&nbsp;Money&raquo;</h5>
     <!--FOOTER-->
