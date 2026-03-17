@@ -34,7 +34,7 @@
         </script>
         <style>
             header {background-image:url("Two-Men-1920x1080-(82).jpg");align-items:center;text-align:center;margin:0;padding:10px 0 26px;} header h3{font-style:italic;}
-            section {margin:0;padding:60px 0 100px;} section#newsletter tr td{border:2px solid #ffffff;}
+            section {margin:0;padding:60px 0 100px;} section#newsletter tr td{border:2px solid #ffffff;} article{margin:0;padding:0;}
             address {margin:0;padding:0;} div.card-header{text-align:center;background-color:#212529;}
             footer {font-size:15px;color:#dee2e6;background-color:#000000;font-weight:200;margin:0;padding:60px 0 16px;}
             a {color:#dee2e6;border-bottom-color:#dee2e6;} i{display:inline-block;line-height:1;} p{font-size:20px;font-weight:400;line-height:1.6;margin:0;padding-bottom:20px;}
@@ -81,17 +81,16 @@
             @media (min-width:1400px) { section#allplans div li {font-size:28px;} section#allplans div {padding-left:210px;} }
             @media (min-width:1600px) { section#allplans div li {font-size:30px;} section#allplans div {padding-left:220px;} }
 
-            section#plans div.card {border-radius:30px; border:2px solid #ffc107; padding:18px 20px 20px 40px; margin-bottom:120px;}
-            section#plans div.card p {line-height:1.46;}
-            section#plans div.card h2, section#plans div.card h3 {text-align:center;color:#ffc107;font-weight:800;line-height:1.4;}
-            section#plans div.card h4 {text-align:center;padding:30px 0 54px;} section#plans div.card h5 {text-align:center;padding:56px 0 50px 0;}
+            section#plans div.card{border-radius:30px; border:2px solid #ffc107; padding:18px 20px 20px 40px; margin-bottom:120px;} section#plans div.card p{line-height:1.46;}
+            section#plans div.card h2, section#plans div.card h3{text-align:center;color:#ffc107;font-weight:800;line-height:1.4;}
+            section#plans div.card h4{text-align:center;padding:30px 0 54px;} section#plans div.card h5{text-align:center;padding:56px 0 50px 0;}
             @media (max-width:575.98px) { section#plans div.card h2 {font-size:36px;} section#plans div.card h3 {font-size:28px;} section#plans div.card h4 {font-size:26px;} section#plans div.card p {font-size:20px;} }
             @media (min-width:576px) { section#plans div.card h2 {font-size:40px;} section#plans div.card h3 {font-size:33px;} section#plans div.card h4 {font-size:30px;} section#plans div.card p {font-size:24px;} }
             @media (min-width:768px) { section#plans div.card h2 {font-size:48px;} section#plans div.card h3 {font-size:42px;} section#plans div.card h4 {font-size:36px;} section#plans div.card p {font-size:26px;} }
             @media (min-width:992px) { section#plans div.card h2 {font-size:68px;} section#plans div.card h3 {font-size:50px;} section#plans div.card h4 {font-size:40px;} section#plans div.card p {font-size:25px;} }
-            @media (min-width:1200px) { section#plans div.card h2 {font-size:70px;} section#plans div.card h4 {font-size:41px;} section#plans div.card p {font-size:24px;} section#plans {padding:80px 142px;} }
-            @media (min-width:1400px) { section#plans div.card h2 {font-size:72px;} section#plans div.card h4 {font-size:42px;} section#plans div.card p {font-size:26px;} section#plans {padding:84px 192px;} }
-            @media (min-width:1600px) { section#plans div.card h2 {font-size:74px;} section#plans div.card h4 {font-size:43px;} section#plans div.card p {font-size:27px;} section#plans {padding:90px 288px;} }
+            @media (min-width:1200px) { section#plans div.card h2 {font-size:70px;} section#plans div.card h4 {font-size:41px;} section#plans div.card p {font-size:24px;} section#plans article /*{padding:80px 142px;}*/ {padding-right:142px;padding-left:142px;} }
+            @media (min-width:1400px) { section#plans div.card h2 {font-size:72px;} section#plans div.card h4 {font-size:42px;} section#plans div.card p {font-size:26px;} section#plans article /*{padding:84px 192px;}*/ {padding-right:192px;padding-left:192px;} }
+            @media (min-width:1600px) { section#plans div.card h2 {font-size:74px;} section#plans div.card h4 {font-size:43px;} section#plans div.card p {font-size:27px;} section#plans article /*{padding:90px 288px;}*/ {padding-right:288px;padding-left:288px;} }
 
             blockquote div.card{border:0;border-radius:30px;box-shadow:10px 10px 12px 6px #ffc107;color:#ffffff;background-color:#6f7173;} blockquote div.card img{width:100%;height:100%;}
             blockquote div.card p{font-style:normal;font-weight:200;font-family:"Roboto Mono","Courier New",monospace;}
@@ -169,8 +168,9 @@
 <!--END TESTIMONIAL 1-->
 
     <!--PLANS-->
-    <section id="plans" class="pb-0">
-    <div class="container-md">
+    <section id="plans" class="pb-0"><div class="container-md">
+    <article>
+        
         <div class="card">
             <h2>Plan&nbsp;&#9312;&nbsp;:&nbsp;&nbsp;CASHFLOW</h2>
             <h3>$300 / Week</h3>
@@ -215,7 +215,8 @@
             <p><span class="fc-yellow">&diams;&nbsp;</span>Quick results and peace of mind knowing you're no longer stuck</p>
             <p class="fc-yellow"><strong>EXTRA:</strong>&nbsp;&nbsp;Monthly call with our Business Growth Strategist</p>
         </div>
-    </div></section>
+    </article>
+    <!--</div></section>-->
 
 <!--TESTIMONIAL 2-->
     <blockquote>
@@ -233,8 +234,9 @@
     </div></div></blockquote>
 <!--END TESTIMONIAL 2-->
         
-    <section id="plans" class="pb-0">
-    <div class="container-md">
+    <!--<section id="plans" class="pb-0">
+    <div class="container-md">-->
+    <article>
         <div class="card">
             <h2>&laquo;TAX&raquo;&nbsp;&nbsp;ADD-ON</h2>
             <h3>[&nbsp;$150/month&nbsp;]</h3>
@@ -272,6 +274,7 @@
             <p><span class="fc-yellow">&loz;&nbsp;</span>See the true financial health of your business</p>
             <p class="fc-yellow"><strong>NOTE:</strong>&nbsp;&nbsp;We use Digits, QuickBooks, Xero</p>
         </div>
+    </article>
     </div></section>
     <!--end PLANS-->
 
