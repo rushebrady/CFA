@@ -29,7 +29,7 @@ section#prefooter{color:#000000;background-color:#ffc107;text-align:center;paddi
 @media (min-width:992px) { section#prefooter h1{font-size:70px;} section#prefooter h2{font-size:52px;} }
 @media (min-width:1200px) { section#prefooter h1{font-size:80px;} section#prefooter h2{font-size:60px;} }
 @media (min-width:1400px) { section#prefooter h1{font-size:88px;} }
-@media (min-width:1400px) { section#prefooter h1{font-size:92px;} }
+@media (min-width:1600px) { section#prefooter h1{font-size:92px;} }
 
 a#cta-btn{color:#ffffff;border-radius:15px;font-weight:700;margin-top:50px;line-height:1.1;padding:20px;}
 a#cta-btn:hover{color:#0d6efd;background-color:#ffffff;}
