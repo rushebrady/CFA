@@ -23,7 +23,7 @@ section#navbar-bottom nav a.nav-link.active {border-bottom-color:#dee2e6;}
 @media (min-width:1600px) { section#navbar-bottom nav{font-size:36px;} }
 
 section#prefooter{color:#000000;background-color:#ffc107;text-align:center;padding:40px 0 72px;}
-@media (max-width:575.98px) { section#prefooter h1{font-size:31px;} section#prefooter h2{font-size:21px;} }
+@media (max-width:575.98px) { section#prefooter h1{font-size:32px;} section#prefooter h2{font-size:20px;} }
 @media (min-width:576px) { section#prefooter h1{font-size:42px;} section#prefooter h2{font-size:28px;} }
 @media (min-width:768px) { section#prefooter h1{font-size:54px;} section#prefooter h2{font-size:38px;} }
 @media (min-width:992px) { section#prefooter h1{font-size:70px;} section#prefooter h2{font-size:52px;} }
