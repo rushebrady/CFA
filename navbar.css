@@ -33,8 +33,8 @@ section#prefooter{color:#000000;background-color:#ffc107;text-align:center;paddi
 
 a#cta-btn{border-radius:15px;color:#ffffff;font-weight:700;margin-top:50px;}
 a#cta-btn:hover{color:#0d6efd;background-color:#ffffff;}
-@media (max-width:575.98px) {a#cta-btn{font-size:28px; line-height:1.4;} }
-@media (min-width:576px) {a#cta-btn{font-size:34px;} line-height:.7;}
+@media (max-width:575.98px) {a#cta-btn{font-size:28px;} }
+@media (min-width:576px) {a#cta-btn{font-size:34px;} }
 @media (min-width:768px) {a#cta-btn{font-size:42px;} }
 @media (min-width:992px) {a#cta-btn{font-size:50px;} }
 @media (min-width:1200px) {a#cta-btn{font-size:52px;} }
