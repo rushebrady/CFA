@@ -24,10 +24,10 @@ section#navbar-bottom nav a.nav-link.active {border-bottom-color:#dee2e6;}
 
 section#prefooter{color:#000000;background-color:#ffc107;text-align:center;padding:40px 0 72px;}
 @media (max-width:575.98px) { section#prefooter h1{font-size:34px;} section#prefooter h2{font-size:22px;} section#prefooter h3{font-size:19px;} }
-@media (min-width:576px) { section#prefooter h1{font-size:44px;} section#prefooter h2{font-size:28px;} section#prefooter h3{font-size:28px;} }
-@media (min-width:768px) { section#prefooter h1{font-size:58px;} section#prefooter h2{font-size:38px;} section#prefooter h3{font-size:38px;} }
-@media (min-width:992px) { section#prefooter h1{font-size:70px;} section#prefooter h2{font-size:52px;} section#prefooter h3{font-size:52px;} }
-@media (min-width:1200px) { section#prefooter h1{font-size:80px;} section#prefooter h2{font-size:60px;} section#prefooter h3{font-size:60px;} }
+@media (min-width:576px) { section#prefooter h1{font-size:44px;} section#prefooter h2{font-size:28px;} section#prefooter h3{font-size:26px;} }
+@media (min-width:768px) { section#prefooter h1{font-size:58px;} section#prefooter h2{font-size:38px;} section#prefooter h3{font-size:36px;} }
+@media (min-width:992px) { section#prefooter h1{font-size:70px;} section#prefooter h2{font-size:52px;} section#prefooter h3{font-size:50px;} }
+@media (min-width:1200px) { section#prefooter h1{font-size:80px;} section#prefooter h2{font-size:60px;} section#prefooter h3{font-size:58px;} }
 @media (min-width:1400px) { section#prefooter h1{font-size:88px;} }
 @media (min-width:1600px) { section#prefooter h1{font-size:92px;} }
 
