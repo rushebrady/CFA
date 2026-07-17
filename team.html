@@ -36,8 +36,9 @@
             header {background-image:url("BKs-Female-1920x1080-(68).jpg");align-items:center;text-align:center;margin:0;padding:10px 0 72px;} header h3{font-style:italic;white-space:nowrap}
             section {margin:0;padding:70px 0 100px;} section#newsletter table tr td{border:2px solid #dee2e6;}
             footer {font-size:15px;color:#dee2e6;background-color:#000000;font-weight:200;margin:0;padding:60px 0 16px;} address{overflow-wrap:normal;margin:0;padding:0;}
-            aside {color:#dee2e6;background-color:#212529;text-align:center;border-radius:38px;overflow-wrap:normal;margin:8px auto;padding:56px;}
-            blockquote {display:block;overflow-wrap:normal;margin:0 auto;padding:38px 0;} cite{text-align:center;display:block;font-size:24px;font-style:normal;overflow-wrap:normal;border:0;margin:0 auto;padding:0;}
+            aside {display:inline-block;color:#dee2e6;background-color:#212529;text-align:center;border-radius:38px;overflow-wrap:normal;margin:8px auto;padding:56px;}
+            blockquote {display:block;overflow-wrap:normal;margin:0;padding:38px 0;}
+            cite {display:block;text-align:center;font-size:24px;font-style:normal;overflow-wrap:normal;border:0;margin:0;padding:0;}
             strong {font-weight:700;overflow-wrap:normal;} small{font-weight:200;color:#a7aaad;overflow-wrap:normal;margin:0;padding:0;} mark{font-size:20px;font-weight:600;line-height:1.6;background-color:#ffc107;overflow-wrap:normal;margin:0;padding:0;}
             a {color:#dee2e6;border-bottom-color:#dee2e6;} i{display:inline-block;line-height:1;} p{font-size:20px;font-weight:400;line-height:1.6;overflow-wrap:normal;margin:0;padding-bottom:20px;}
             h1 {font-size:100px;font-weight:800;line-height:1.5;text-align:center;color:#ffc107;overflow-wrap:normal;margin:0;padding:0 0 26px 0;}
@@ -92,6 +93,15 @@
             @media (min-width:1400px) { section#bizcard h2 {font-size:88px;} section#bizcard div.card h4 {font-size:45px;} section#bizcard div.container-sm {padding-left:230px;padding-right:230px;} }
             @media (min-width:1600px) { section#bizcard h2 {font-size:90px;} section#bizcard div.card h4 {font-size:46px;} section#bizcard div.container-sm {padding-left:250px;padding-right:250px;} }
 
+            @media (max-width:575.98px) { aside#textbox h2{font-size:32px;} aside#textbox h3{font-size:22px;} aside#textbox{padding-left:18px;}  aside#text-box{width:98%;} }
+            @media (min-width:576px) { aside#textbox h2{font-size:48px;} aside#textbox h3{font-size:30px;} aside#text-box{width:94%;} }
+            @media (min-width:768px) { aside#textbox h2{font-size:62px;} aside#textbox h3{font-size:38px;} aside#textbox{width:90%;} }
+            @media (min-width:992px) { aside#textbox h2{font-size:64px;} aside#textbox h3{font-size:44px;} aside#textbox{width:80%;} }
+            @media (min-width:1200px) { aside#textbox h2{font-size:66px;} aside#textbox h3{font-size:46px;} aside#textbox{width:90%;} }
+            @media (min-width:1400px) { aside#textbox h2{font-size:68px;} aside#textbox h3{font-size:48px;} }
+            @media (min-width:1600px) { aside#textbox h2{font-size:70px;} aside#textbox h3{font-size:50px;} }
+            
+/*
             @media (max-width:575.98px) { aside#textbox h2{font-size:32px;} aside#textbox h3{font-size:22px;} aside#textbox{padding-left:18px;} }
             @media (min-width:576px) { aside#textbox h2{font-size:48px;} aside#textbox h3{font-size:30px;} }
             @media (min-width:768px) { aside#textbox h2{font-size:62px;} aside#textbox h3{font-size:38px;} aside#textbox{margin-right:12px;margin-left:12px;} }
@@ -99,6 +109,7 @@
             @media (min-width:1200px) { aside#textbox h2{font-size:66px;} aside#textbox h3{font-size:46px;} aside#textbox{margin-right:90px;margin-left:90px;} }
             @media (min-width:1400px) { aside#textbox h2{font-size:68px;} aside#textbox h3{font-size:48px;} }
             @media (min-width:1600px) { aside#textbox h2{font-size:70px;} aside#textbox h3{font-size:50px;} }
+*/
 
             @media (max-width:575.98px) { section#partners h1{font-size:90px;} }
         </style>
@@ -296,7 +307,7 @@
     <!--PREFOOTER-->
     <section id="prefooter"><div class="container-sm pt-5">
         <!--<i class="bi bi-cash-coin font150 py-3"></i>-->
-        <figure><img src="Brady2025-Sketchify-150x150.png" width="150" height="150" alt="..." class="brdr-radius15"></figure>
+        <figure><img src="Brady2025-Sketchify-150x150.png" width="150" height="150" alt="..." class="brdr-radius15 mb-3"></figure>
         <h2 class="pb-2">We don't just give you advice.<br>We give you a Financial Operations Team<br>who will help you run a better business.</h2>
         <hr>
         <a id="cta-btn" class="btn btn-lg btn-primary lh12 mt-0" href="./call.html" onclick="gtag_report_conversion('./call.html');">&nbsp;Begin&nbsp;100&nbsp;Days&nbsp;To&nbsp;Profit&nbsp;
