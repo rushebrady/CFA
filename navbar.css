@@ -1,4 +1,4 @@
-section#page-top {font-size:12px;font-weight:200;color:#dee2e6;background-color:#000000;font-family:"Roboto Mono","Courier New",monospace;font-style:normal;margin:0;padding:0;}
+section#page-top {text-align:center;font-size:12px;font-weight:200;color:#dee2e6;background-color:#000000;font-family:"Roboto Mono","Courier New",monospace;font-style:normal;margin:0;padding:0;}
 
 section#navbar-top {background-color:#ffc107;margin:0;padding:6px 20px 5px 14px;}
 section#navbar-top nav {text-align:center;margin:0;padding:14px 0 0 0;}
